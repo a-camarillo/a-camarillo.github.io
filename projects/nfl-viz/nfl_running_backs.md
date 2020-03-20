@@ -6,7 +6,8 @@ Interactive features include displaying player name with their respective yards 
 
 
 ![Players](https://raw.githubusercontent.com/a-camarillo/NFL-running-backs-2019/master/images/players.gif)
-
+&nbsp;
+&nbsp;
 
 
 Clicking on a player's point will display their weekly rushing performances over the entire season. Weeks without a point represent a bye for that player whereas a point with 0 indicates the player did not gain any yards due to injury, poor performance, being benched, et cetera. 
