@@ -16,6 +16,7 @@ rank. rank retrieves the current tier, rank and league points for the requested 
 &nbsp;
 
 stats. stats retrieves the average kills, deaths, assists, and gold earned over the past five games for the requested player
+
 ![stats](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/stats.png)
 
 
