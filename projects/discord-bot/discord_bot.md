@@ -10,18 +10,18 @@ League Bot is a bot I made for my friends and I to use in our discord channel. L
 &nbsp;
 
 rank. rank retrieves the current tier, rank and league points for the requested player
-![rank](https://github.com/a-camarillo/a-camarillo.github.io/blob/master/projects/discord-bot/images/rank.png?raw=true)
+![rank](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/rank.png)
 
 
 &nbsp;
 
 stats. stats retrieves the average kills, deaths, assists, and gold earned over the past five games for the requested player
-![stats](https://github.com/a-camarillo/a-camarillo.github.io/blob/master/projects/discord-bot/images/stats.png?raw=true)
+![stats](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/stats.png)
 
 
 &nbsp;
 
 champs. champs retrieves the requested player's champions and win or loss over the past twenty games and displays a count plot for each individual champion 
-![champs](https://github.com/a-camarillo/a-camarillo.github.io/blob/master/projects/discord-bot/images/champs.png?raw=true)
+![champs](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/champs.png)
 
 **Notice:** In the image for the champs command, the player's name is in quotations. This is required for any player's name which contains spaces
