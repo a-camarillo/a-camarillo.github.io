@@ -12,3 +12,6 @@ Scraped statistics from NFL.com for the top 50 rushers, in total rush yards, for
 
 ### [California AP Scores Visualization](../projects/california_ap/ap_viz.html)
 Gathered data of California AP scores from [data.world](https://data.world) for the years 1999-2016. Using excel, cleaned individual worksheet files and combined them into one file. Then used Tableau to create a chloropleth map which displays percentage of AP exams passed per county in California.
+
+### [Shnitzel's Radda Visualization](../projects/chowder_viz/raddas.html)
+Using python libraries, seaborn and pandas, created a bar plot which displays the amount of times the cartoon character Shnitzel said "radda" over the show Chowder.
