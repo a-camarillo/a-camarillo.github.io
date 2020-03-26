@@ -3,3 +3,5 @@ description: My journey and the work I am doing along the way
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
+
+{% include linkedin.html %}
