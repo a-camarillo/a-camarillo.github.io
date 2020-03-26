@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a.button2 {
+  width: 134px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+header a.button2 {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background: transparent url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/220px-Linkedin.svg.png) 0 0 no-repeat;
+}
