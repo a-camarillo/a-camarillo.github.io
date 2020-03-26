@@ -22,15 +22,7 @@ header a.button2 {
 }
 
 @media only screen and (max-width: 767px) {
-  .inner {
-    width: 93%;
-  }
-  header {
-    padding: 20px 0;
-  }
-  header .inner {
-    position: relative;
-  }
+ 
   header a.button2 {
     position: relative;
     display: inline-block;
@@ -47,5 +39,6 @@ header a.button2 {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    background: url(../linkedin-button.png) 0 0 no-repeat;
   }
 }
