@@ -10,3 +10,5 @@ Created a discord bot which connects to the Riot API and collects data for playe
 ### [NFL Running Backs Interactive Visualization](../projects/nfl-viz/nfl_running_backs.html)
 Scraped statistics from NFL.com for the top 50 rushers, in total rush yards, for the 2019 season and used the python framework Dash by Plotly to create an interactive visualization. The visualization features a scatter plot of all players rush attempts versus yards gained week-by-week and a line graph displaying individual player's rushing performances over the season. 
 
+### [California AP Scores Visualization](../projects/california_ap/ap_viz.html)
+Gathered data of California AP scores from [data.world](https://data.world) for the years 1999-2016. Using excel, cleaned individual worksheet files and combined them into one file. Then used Tableau to create a chloropleth map which displays percentage of AP exams passed per county in California.
