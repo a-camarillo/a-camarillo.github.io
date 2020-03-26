@@ -22,6 +22,15 @@ header a.button2 {
 }
 
 @media only screen and (max-width: 767px) {
+  .inner {
+    width: 93%;
+  }
+  header {
+    padding: 20px 0;
+  }
+  header .inner {
+    position: relative;
+  }
   header a.button2 {
     position: relative;
     display: inline-block;
