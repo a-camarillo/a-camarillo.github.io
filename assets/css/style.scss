@@ -3,14 +3,6 @@
 
 @import "{{ site.theme }}";
 
-button2,
-html input[type="button2"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-}
-
 a.button2 {
   width: 134px;
   height: 58px;
@@ -34,10 +26,10 @@ header a.button2 {
   header a.button2 {
     position: relative;
     display: inline-block;
-    width: auto;
+   /* width: auto;
     height: auto;
     padding: 5px 10px;
-    margin-top: 0;
+    margin-top: 0;*/
     font-size: 13px;
     line-height: 1;
     color: #2879d0;
@@ -47,5 +39,6 @@ header a.button2 {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+  
   }
 }
