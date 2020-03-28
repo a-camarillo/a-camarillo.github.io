@@ -1,6 +1,6 @@
 # Visualizing Shnitzel's Radda
 
-### Code for this project can be found at [this repository](https://https://github.com/a-camarillo/chowder-visualization)
+### Code for this project can be found at [this repository](https://github.com/a-camarillo/chowder-visualization)
 
 <p>
 <img align="left" src="https://i.cdn.turner.com/v5cache/CARTOON/site/Images/i22/chow_shnitzel_174x252.png" height="130" >
