@@ -23,6 +23,7 @@ stats. stats retrieves the average kills, deaths, assists, and gold earned over 
 &nbsp;
 
 champs. champs retrieves the requested player's champions and win or loss over the past twenty games and displays a count plot for each individual champion 
-![champs](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/champs.png)
 
 **Notice:** In the image for the champs command, the player's name is in quotations. This is required for any player's name which contains spaces
+![champs](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/discord-bot/images/champs.png)
+
