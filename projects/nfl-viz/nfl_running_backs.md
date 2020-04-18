@@ -14,7 +14,7 @@ Clicking on a player's point will display their weekly rushing performances over
 
 ![Clicks](https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/nfl-viz/images/click.gif)
 
-## Data Collection
+## Data Collection and Cleaning
 
 To collect the data used for this project, I used the python libraries [Requests](https://requests.readthedocs.io/en/master/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to scrape player statistics from NFL.com.
 
@@ -24,4 +24,5 @@ Before scraping any website, you want to make sure you're not attempting to extr
 
 <img src="https://raw.githubusercontent.com/a-camarillo/a-camarillo.github.io/master/projects/nfl-viz/images/nfl_robots.png" height=200>
 
-Since the **Disallow:** does not include `/stats` or `/player` , the extensions I used for player statistics, I am ok to scrape through without worrying about getting in trouble with NFL.com
+Since the **Disallow:** does not include `/player` , the extension I used for player statistics, I am ok to scrape through without worrying about getting in trouble with NFL.com
+
