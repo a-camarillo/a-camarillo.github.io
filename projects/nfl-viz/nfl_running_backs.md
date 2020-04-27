@@ -22,7 +22,7 @@ Requests allows python to easily make http requests and BeautifulSoup allows you
 
 Before scraping any website, you want to make sure you're not attempting to extract any information the website owners wouldn't want you to. To see what you're allowed and not allowed to scrape through you can simply use the url's `/robots.txt`.
 
-<img src="https://github.com/a-camarillo/a-camarillo.github.io/blob/master/projects/nfl-viz/images/nfl_robots.png?raw=true" height=200>
+<img src="https://github.com/a-camarillo/a-camarillo.github.io/blob/master/projects/nfl-viz/images/nfl_robots.png?raw=true" height=200, alt="robots">
 
 Since the **Disallow:** does not include `/player` , the extension I used for player statistics, I am ok to scrape through without worrying about getting in trouble with NFL.com
 
