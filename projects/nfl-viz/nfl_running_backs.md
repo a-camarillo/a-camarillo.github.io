@@ -28,7 +28,7 @@ Since the **Disallow:** does not include `/player` , the extension I used for pl
 
 The function I wrote to scrape each player's gamelogs utilizes the libraries `requests` and `BeautifulSoup` which is aliased as `soup`.
 
-```
+```python
 def acquire_stats(url):
     r = requests.get(url)
     c = r.content
@@ -70,7 +70,7 @@ Finally the function iterates over the table rows, finding and cleaning all of t
 I then created a list of urls from the top 50 rushers and used list comprehension, as well as the `dict` function, to create a dictionary where the keys are the player names and the values are nested lists containing the player's weekly statistics.
 
 *Below is the first two weeks of Derrick Henry's stats to show what the dict looks like*
-```
+```python
 {'Derrick Henry': [['1','09/08','  CLE','W    43-13 ','1','1','19','84','4.4','18','1','1','75','75.0','75T','1','--','--'],
 ['2','09/15','  IND','L   17-19 ','1','1','15','82','5.5','18','1','2','12','6.0','9','0','1','0'],
 ```
