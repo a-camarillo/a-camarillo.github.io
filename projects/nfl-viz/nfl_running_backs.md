@@ -156,3 +156,6 @@ Then I created some additional columns containing the player's name for each wee
 
 ![statistics](https://i.gyazo.com/6b23074a4970da478369283f060c9952.png)
 
+## Creating The Dash App
+
+The final interactive visualization was created using Plotly's library [Dash](https://plotly.com/dash/) which allows for easy creation of interactive analytics applications.
