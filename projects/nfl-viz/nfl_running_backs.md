@@ -159,3 +159,125 @@ Then I created some additional columns containing the player's name for each wee
 ## Creating The Dash App
 
 The final interactive visualization was created using Plotly's library [Dash](https://plotly.com/dash/) which allows for easy creation of interactive analytics applications.
+
+I started with importing the dash libraries I would be using along with pandas to read in the csv file.
+```python
+import dash
+import dash_core_components as dcc 
+import dash_html_components as html 
+from dash.dependencies import Input, Output
+import pandas as pd
+```
+
+Next was reading in the csv and setting up the layout for the application.
+
+```python
+df = pd.read_csv('https://raw.githubusercontent.com/a-camarillo/NFL-running-backs-2019/master/Data%20Cleaning/rushing_stats_2019')
+
+app = dash.Dash(__name__)
+
+app.layout = html.Div([
+    html.Div([
+        dcc.Graph(
+            id='graph-with-slider',
+            clickData={'points':[{'text': 'Dalvin Cook'}]}),
+        dcc.Slider(
+         id='week-slider',
+         min=df['week'].min(),
+         max=df['week'].max(),
+         value=df['week'].min(),
+         marks={str(week): 'Week {}'.format(week) for week in df['week'].unique()},
+            step=None
+        )
+    ]),
+    html.Div([
+        dcc.Graph(id='line-graph')
+    ])
+])
+```
+
+The layout consists of two separate div elements which are wrapped inside a larger div element. The first element contains a graph,`id='graph-with-slider'`, which uses `clickData` from a users click and a slider which contains a point for each unique value in the 'week' column of the dataframe. The second element contains the graph with `id='line-graph'`.
+
+Finally, the functionality for the visualization which comes from utilizing Dash's callback feature. Each callback has its own output, input, and function to be used by the callback.
+```python
+@app.callback(
+    Output('graph-with-slider', 'figure'),
+    [Input('week-slider', 'value')])
+def update_figure(selected_week):
+    filtered_df = df[df.week == selected_week]
+    traces = []
+    for i in filtered_df.player.unique():
+        df_by_player = filtered_df[filtered_df['player'] == i]
+        traces.append(dict(
+            x=df_by_player['tot_yds'],
+            y=df_by_player['tot_att'],
+            text=df_by_player['player'],
+            mode='markers',
+            opacity=0.7,
+            marker={
+                'size': 15,
+                'line' : {'width': 0.5, 'color': 'white'}
+            },
+            name=i  
+        ))
+    return {
+        'data': traces,
+        'layout':dict(
+            xaxis={'type':'scatter','title':'Yards'},
+            yaxis={'type':'scatter','title':'Attempts'},
+            hovermode='closest',
+            transition = {'duration': 500}
+        )
+    }
+ ```
+The first callback's output is an updated figure for the `graph-with-slider` component and the input is the value of the slider. The `update_figure` function passes the value `selected_week` which is simply the input from the slider.
+
+The function then creates a dataframe where the value for the `week` column is equal to the input value, iterates through the players creating a dictionary of the player and their stats for the respective week, and appends all of the dictionaries to an empty list.
+
+The function returns two features for the output figure `graph-with-slider`: the data for the figure which is the final list of player dicts and the layout which creates the scatter points and annotations. The output now updates whenever a new input(slider value) is passed.
+```python
+@app.callback(
+    Output('line-graph', 'figure'),
+    [Input('graph-with-slider', 'clickData')])
+def update_linegraph(clickData):
+    player_name = clickData['points'][0]['text']
+    player_df = df[df.player == player_name]
+    return {
+        'data':[dict(
+            x=player_df['week'],
+            y=player_df['yds']
+        )],
+        'layout': dict(
+            xaxis={'title':'Week'},
+            yaxis={'title':'Yards'},
+            title=player_name 
+    )
+}
+```
+The second callback's output is a figure for the `line-graph` component and the input is `clickData` from the `graph-with-slider` component. The default point shown in the layout is for Dalvin Cook.
+
+An important note about `clickData` is the data is contained in a dictionary within a list within another dictionary like below:
+```
+{
+  "points": [
+    {
+      "curveNumber": 1,
+      "pointNumber": 1,
+      "pointIndex": 1,
+      "x": 2,
+      "y": 4,
+      "customdata": "c.x",
+      "text": "x"
+    }
+  ]
+}
+```
+In the previous callback `text` is assigned the value of the player's name so the `update_linegraph` function passes in the `clickData` and saves the `text` value, the player's name. 
+
+The function then creates a new dataframe from that single player and returns the week and player's yards as x and y points, respectively.
+
+```python
+if __name__ == '__main__':
+    app.run_server(debug=True)
+```
+Finally, a statement to run the app if the program is run, and the interactive visualization is complete.
