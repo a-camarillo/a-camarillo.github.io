@@ -15,3 +15,8 @@ Gathered data of California AP scores from [data.world](https://data.world) for 
 
 ### [Shnitzel's Radda Visualization](../projects/chowder_viz/raddas.html)
 Using python libraries, seaborn and pandas, created a bar plot which displays the amount of times the cartoon character Shnitzel said "radda" over the show Chowder.
+
+# SQL 
+
+### [MySQL Scripts](../projects/sql/sql_scripts.md)
+Some queries I have done for online challenges to learn and practice working with SQL
