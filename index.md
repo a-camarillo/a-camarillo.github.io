@@ -18,5 +18,5 @@ Using python libraries, seaborn and pandas, created a bar plot which displays th
 
 # SQL 
 
-### [MySQL Scripts](../projects/sql/sql_scripts.md)
+### [MySQL Scripts](../projects/sql/sql_scripts.html)
 Some queries I have done for online challenges to learn and practice working with SQL
