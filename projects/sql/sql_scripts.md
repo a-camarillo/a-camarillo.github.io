@@ -45,9 +45,8 @@ ORDER BY t.counter DESC, h.hacker_id ASC
 **Example Tables:**
 
 <div>
-<img align="left" src="https://s3.amazonaws.com/hr-challenge-images/12895/1443820079-9bd1e231b1-2_1.png" height=200>
-<img align="center" src="https://i.gyazo.com/ab95d2dcd49f5ed96f3c33389a3f8e46.png" height=200 >
-<img align="left" src="https://i.gyazo.com/6e35e2eaadd60f307c521bbf03b38b97.png" height=200 >
+<img align="left" src="https://s3.amazonaws.com/hr-challenge-images/12895/1443820079-9bd1e231b1-2_1.png" >
+<img align="center" src="https://s3.amazonaws.com/hr-challenge-images/12895/1443820100-adb691b2f5-2_2.png" >
 </div>
 
 
