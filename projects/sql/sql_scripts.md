@@ -20,7 +20,7 @@
 </div>
 
 
-``` MySQL
+```SQL
 SELECT h.hacker_id, h.name
 FROM Hackers h
     INNER JOIN
@@ -35,4 +35,29 @@ FROM Hackers h
     ON h.hacker_id = t.hack_id
 WHERE t.counter > 1
 ORDER BY t.counter DESC, h.hacker_id ASC
+```
+### [Placements](https://www.hackerrank.com/challenges/placements/problem) challenge from Hacker Rank
+
+**Methods: Inner Join and Subqueries**
+
+**Task:** Write a query to output the names of those students whose best friends got offered a higher salary than them. Names must be ordered by the salary amount offered to the best friends. It is guaranteed that no two students got same salary offer.
+
+**Example Tables:**
+<div>
+<img align="left" src="https://s3.amazonaws.com/hr-challenge-images/12895/1443820079-9bd1e231b1-2_1.png" height=200>
+<img align="center" src="https://i.gyazo.com/ab95d2dcd49f5ed96f3c33389a3f8e46.png" height=200 >
+<img align="left" src="https://i.gyazo.com/6e35e2eaadd60f307c521bbf03b38b97.png" height=200 >
+</div>
+
+
+```SQL
+SELECT name
+FROM (SELECT s.id AS student_id, s.name, salary
+      FROM Students s INNER JOIN packages p ON s.id = p.id) AS g
+      INNER JOIN
+     (SELECT f.id AS student_id, p.id AS friend_id, salary
+      FROM friends f INNER JOIN packages p ON f.friend_id = p.id) AS h
+      ON g.student_id = h.student_id
+WHERE h.salary > g.salary
+ORDER BY h.salary
 ```
