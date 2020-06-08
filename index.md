@@ -2,6 +2,11 @@
 
 I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data science. My current projects focus primarily on data wrangling, analysis, and visualization. 
 
+# SQL 
+
+### [MySQL Scripts](../projects/sql/sql_scripts.html)
+Some queries I have done for online challenges to learn and practice working with SQL
+
 # Projects
 
 ### [League of Legends Discord Bot](../projects/discord-bot/discord_bot.html)
@@ -16,7 +21,4 @@ Gathered data of California AP scores from [data.world](https://data.world) for 
 ### [Shnitzel's Radda Visualization](../projects/chowder_viz/raddas.html)
 Using python libraries, seaborn and pandas, created a bar plot which displays the amount of times the cartoon character Shnitzel said "radda" over the show Chowder.
 
-# SQL 
 
-### [MySQL Scripts](../projects/sql/sql_scripts.html)
-Some queries I have done for online challenges to learn and practice working with SQL
