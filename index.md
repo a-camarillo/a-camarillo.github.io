@@ -1,6 +1,6 @@
 # About Me
 
-I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data science. My current projects focus primarily on data wrangling, analysis, and visualization. 
+I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data analytics. My current projects focus primarily on data collection and visualization.
 
 # SQL 
 
