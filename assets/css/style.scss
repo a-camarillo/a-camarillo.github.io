@@ -3,12 +3,16 @@
 
 @import "{{ site.theme }}";
 
+header {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 a.button2 {
   width: 134px;
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
