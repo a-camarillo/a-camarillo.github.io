@@ -12,7 +12,7 @@ a.button2 {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Architects Daughter', Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
@@ -33,21 +33,28 @@ header a.button2 {
 }
 
 h1 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Helvetica, Arial, serif;
 }
 
 h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Helvetica, Arial, serif;
 }
 
 h3 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Helvetica, Arial, serif;
 }
 
 h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Helvetica, Arial, serif;
 }
 
+h5 {
+  font-family: Helvetica, Arial, serif;
+}
+
+h6 {
+  font-family: Helvetica, Arial, serif;
+}
 @media only screen and (max-width: 767px) {
  
   header .inner {
