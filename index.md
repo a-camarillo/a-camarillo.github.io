@@ -15,7 +15,7 @@ Created a discord bot which connects to the Riot API and collects data for playe
 ### [NFL Running Backs Interactive Visualization](../projects/nfl-viz/nfl_running_backs.html)
 Scraped statistics from NFL.com for the top 50 rushers, in total rush yards, for the 2019 season and used the python framework Dash by Plotly to create an interactive visualization. The visualization features a scatter plot of all players rush attempts versus yards gained week-by-week and a line graph displaying individual player's rushing performances over the season. 
 
-### [Nutrition Analysis](../projects/nutrition_analysis/nutrtition_analysis.html)
+### [Nutrition Analysis](../projects/nutrition_analysis/nutrition_analysis.html)
 Collected nutrition data from household food items and fast food items I commonly consume. Visualized carbohyrdates, fats, and protein to see how individual items compared to each other and how they affect my personal dietary needs.
 
 ### [California AP Scores Visualization](../projects/california_ap/ap_viz.html)
