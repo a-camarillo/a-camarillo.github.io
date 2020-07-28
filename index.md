@@ -9,6 +9,9 @@ Some queries I have done for online challenges to learn and practice working wit
 
 # Projects
 
+### [Spotify Regression](../projects/spotify_regression/spotify_regression.html)
+Created a recommendation playlist to explore music beyond my normal scope of listening which resulted in my finding of 19 new songs outside the genres I normally listen. Performed analysis of distributions and chi-squared tests for measuring prefences among key features then used logistic regression to predict the tracks in the playlist
+
 ### [League of Legends Discord Bot](../projects/discord-bot/discord_bot.html)
 Created a discord bot which connects to the Riot API and collects data for players. Current functions allow users to command the bot to retrieve player rank, statistics, and a visual displaying recent characters played with wins and losses, resepectively.
 
@@ -20,8 +23,5 @@ Collected nutrition data from household food items and fast food items I commonl
 
 ### [California AP Scores Visualization](../projects/california_ap/ap_viz.html)
 Gathered data of California AP scores from [data.world](https://data.world) for the years 1999-2016. Using excel, cleaned individual worksheet files and combined them into one file, then used Tableau to create a chloropleth map which displays percentage of AP exams passed per county in California.
-
-### [Shnitzel's Radda Visualization](../projects/chowder_viz/raddas.html)
-Using python libraries, seaborn and pandas, created a bar plot which displays the amount of times the cartoon character Shnitzel said "radda" over the show Chowder.
 
 
