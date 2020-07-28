@@ -1,7 +1,6 @@
 # About Me
 
-I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data analytics. My current projects focus primarily on data collection and visualization.
-
+I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data analytics and curious about the various ways in which data can be used to confidently drive real world decisions. Some of my personal interests include: music, fitness, and cooking.
 # SQL 
 
 ### [MySQL Scripts](../projects/sql/sql_scripts.html)
