@@ -11,6 +11,9 @@ Some queries I have done for online challenges to learn and practice working wit
 ### [Spotify Regression](../projects/spotify_regression/spotify_regression.html)
 Created a recommendation playlist to explore music beyond my normal scope of listening which resulted in my finding of 19 new songs outside the genres I normally listen. Performed analysis of distributions and chi-squared tests for measuring preferences among key features then used logistic regression to predict the tracks in the playlist
 
+### [Sam The Cooking Guy Sentiment Analysis](../projects/sentiment_analysis/sentiment_analysis.html)
+Analyzed the sentiment of comments for two burger videos made by the YouTube channel Sam The Cooking Guy which revealed an overall positive response from users who commented on these videos. Observed distributions of text sentiment(negative to positive) as well as time-series analysis for change in user sentiment over time.
+
 ### [League of Legends Discord Bot](../projects/discord-bot/discord_bot.html)
 Created a discord bot which connects to the Riot API and collects data for players. Current functions allow users to command the bot to retrieve player rank, statistics, and a visual displaying recent characters played with wins and losses, resepectively.
 
