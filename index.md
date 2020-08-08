@@ -3,6 +3,9 @@
 I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data analytics and curious about the various ways in which data can be used to confidently drive real world decisions. Some of my personal interests include: music, fitness, and cooking.
 # SQL 
 
+### [Sam The Cooking Guy Database](../projects/sql/databse.html)
+Created a database from YouTube comments and corresponding video details from videos by Sam The Cooking Guy. Used Python to get data from YouTube API and insert the data into Microsoft SQL Server.
+
 ### [MySQL Scripts](../projects/sql/sql_scripts.html)
 Some queries I have done for online challenges to learn and practice working with SQL
 
