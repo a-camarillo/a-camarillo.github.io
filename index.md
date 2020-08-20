@@ -1,13 +1,6 @@
 # About Me
 
 I am a recent mechanical engineering graduate from California State University, Long Beach pursuing a career in data analytics and curious about the various ways in which data can be used to confidently drive real world decisions. Some of my personal interests include: music, fitness, and cooking.
-# SQL 
-
-### [Sam The Cooking Guy Database](../projects/sql/database.html)
-Created a database from YouTube comments and corresponding video details from videos by Sam The Cooking Guy. Used Python to get data from YouTube API and insert the data into Microsoft SQL Server.
-
-### [MySQL Scripts](../projects/sql/sql_scripts.html)
-Some queries I have done for online challenges to learn and practice working with SQL
 
 # Projects
 
@@ -29,4 +22,11 @@ Collected nutrition data from household food items and fast food items I commonl
 ### [California AP Scores Visualization](../projects/california_ap/ap_viz.html)
 Gathered data of California AP scores from [data.world](https://data.world) for the years 1999-2016. Using excel, cleaned individual worksheet files and combined them into one file, then used Tableau to create a chloropleth map which displays percentage of AP exams passed per county in California.
 
+# SQL 
+
+### [Sam The Cooking Guy Database](../projects/sql/database.html)
+Created a database from YouTube comments and corresponding video details from videos by Sam The Cooking Guy. Used Python to get data from YouTube API and insert the data into Microsoft SQL Server.
+
+### [MySQL Scripts](../projects/sql/sql_scripts.html)
+Some queries I have done for online challenges to learn and practice working with SQL
 
